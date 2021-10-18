@@ -30,7 +30,7 @@ var questions = [
 var score = 0;
 
 
-const game = (question, answer) => {
+function game(question, answer) {
   let ans = readlineSync.question(question + ":--> ");
   
   //checking answer
